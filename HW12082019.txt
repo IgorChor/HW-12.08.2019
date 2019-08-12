@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+</head>
+<body>
+
+<header>
+    <div class="logoReact">
+        <a href="#">
+            <img src="logoReact.svg">
+        </a>
+		<div id="menu1">
+        <nav>
+            <a href="#">Docs</a>
+            <a href="#">Tutorial</a>
+            <a href="#">Blog</a>
+            <a href="#">Community</a>
+        </nav>
+		</div>
+        <form>
+            <input type="search" placeholder="Search">
+            <i class="fas fa-search"></i>
+        </form>
+        <div id="menu2">
+            <nav>
+                <a href="#">c16.9.0</a>
+                <a href="#"><i class="fas fa-language"></i>Languages</a>
+                <a href="#">GitHub<i class="fas fa-external-link-alt"></i></a>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section>
+        <div class="slider">
+            <h1>React</h1>
+            <p>A JavaScript library for building user interfaces</p>
+            <a href="#">Get Started</a>
+            <a href="#">Take the Tutorial<i class="fas fa-chevron-right"></i></a>
+        </div>
+    </section>
+
+    <section>
+        <div class"block1">
+            <div id="block1_1">
+                <h2>Declarative</h2>
+                <p>React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.</p>
+                <br>
+                <p>Declarative views make your code more predictable and easier to debug.</p>
+            </div>
+            <div id="block1_2">
+                <h2>Component-Based</h2>
+                <p>Build encapsulated components that manage their own state, then compose them to make complex UIs.</p>
+                <br>
+                <p>Since component logic is written in JavaScript instead of templates, you can easily pass rich data through your app and keep state out of the DOM.</p>
+            </div>
+            <div id="block1_3">
+                <h2>Learn Once, Write Anywhere</h2>
+                <p>We don’t make assumptions about the rest of your technology stack, so you can develop new features in React without rewriting existing code.</p>
+                <br>
+                <p>React can also render on the server using Node and power mobile apps using <a href="#">React Native.</a></p>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section>
+        <div class="block2">
+            <div id="block2_1">
+                <h3>A Simple Component</h3>
+                <p>React components implement a <code>render()</code> method that takes input data and returns what to display. This example uses an XML-like syntax called JSX. Input data that is passed into the component can be accessed by <code>render()</code> via <code>this.props</code>.</p>
+                <p><strong>JSX is optional and not required to use React.</strong> Try the <a href="#" target="_blank">Babel REPL</a> to see the raw JavaScript code produced by the JSX compilation step.</p>
+				
+				<div id="compiler1">
+				</div>
+				
+			</div>
+        </div>
+    </section>
+
+    <section>
+        <div class="block3">
+            <div id="block3_1">
+                <h3>A Stateful Component</h3>
+                <p>In addition to taking input data (accessed via <code>this.props</code>), a component can maintain internal state data (accessed via <code>this.state</code>). When a component’s state data changes, the rendered markup will be updated by re-invoking <code>render()</code>.</p>
+            </div>
+			
+            <div id="compiler12">
+            </div>
+			
+        </div>
+    </section>
+
+    <section>
+        <div class="block4">
+            <div id="block4_1">
+                <h3>An Application</h3>
+                <p>Using <code>props</code> and <code>state</code>, we can put together a small Todo application. This example uses <code>state</code> to track the current list of items as well as the text that the user has entered. Although event handlers appear to be rendered inline, they will be collected and implemented using event delegation.</p>
+            </div>
+			
+            <div id="compiler13">
+            </div>
+			
+        </div>
+    </section>
+
+    <section>
+        <div class ="block4">
+            <div id ="block4">
+                <h3>A Component Using External Plugins</h3>
+                <p>React allows you to interface with other libraries and frameworks. This example uses <strong>remarkable</strong>, an external Markdown library, to convert the <code>&lt;textarea&gt;</code>’s value in real time.</p>
+            </div>
+			
+            <div id="compiler14">
+            </div>
+            
+        </div>
+    </section>
+
+    <section>
+        <div class="prefooter">
+            <a href="#">Get Started</a>
+            <a href="#">Take the Tutorial<i class="fas fa-chevron-right"></i></a>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="footer">
+        <div id="footerlogo">
+            <img src=footerlogo.png">
+            <p>Copyright © 2019 Facebook Inc.</p>
+        </div>
+			<div class="fmenu">
+				<div id="fmenu1">
+					<h4>DOCS</h4>
+					<ul>
+						<li><a href="#">Installation</a></li>
+						<li><a href="#">Main Concepts</a></li>
+						<li><a href="#">Advanced Guides</a></li>
+						<li><a href="#">API Reference</a></li>
+						<li><a href="#">Hooks (New)</a></li>
+						<li><a href="#">Testing</a></li>
+						<li><a href="#">Contributing</a></li>
+						<li><a href="#">FAQ</a></li>
+					</ul>
+				</div>
+			</div>
+            <div id="fmenu2">
+                <h4>COMMUNITY</h4>
+                <ul>
+                    <li><a href="#">Community Resources</a></li>
+                    <li><a href="#">Tools</a></li>
+                </ul>
+            </div>
+            <div id="fmenu3">
+                <h4>CHANNELS</h4>
+                <ul>
+                    <li><a href="#">GitHub <i class="fas fa-external-link-alt"></i></a></li>
+                    <li><a href="#">Stack Overflow <i class="fas fa-external-link-alt"></i></a></li>
+                    <li><a href="#">Discussion Forums <i class="fas fa-external-link-alt"></i></a></li>
+                    <li><a href="#">Reactiflux Chat <i class="fas fa-external-link-alt"></i></a></li>
+                    <li><a href="#">DEV Community <i class="fas fa-external-link-alt"></i></a></li>
+                    <li><a href="#">Facebook <i class="fas fa-external-link-alt"></i></a></li>
+                    <li><a href="#">Twitter <i class="fas fa-external-link-alt"></i></a></li>
+                </ul>
+            </div>
+            <div id="fmenu4">
+                <h4>MORE</h4>
+                <ul>
+                    <li><a href="#">Tutorial</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Acknowledgements</a></li>
+                    <li><a href="#">React Native <i class="fas fa-external-link-alt"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html> 
